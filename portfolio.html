@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rithika P | Cyber Security Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+:root{
+  --bg:#0A192F;
+  --card:#112240;
+  --primary:#64FFDA;
+  --text:#CCD6F6;
+  --sub:#8892B0;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:var(--bg);color:var(--text);scroll-behavior:smooth;}
+section{padding:80px 10%;}
+h2{color:var(--primary);margin-bottom:20px;}
+
+nav{
+  position:fixed;top:0;width:100%;
+  background:#0A192F;
+  padding:15px 10%;
+  display:flex;justify-content:space-between;
+  z-index:1000;
+}
+
+nav a{color:var(--text);text-decoration:none;margin-left:20px;}
+
+/* HERO */
+.hero{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:40px;
+}
+
+.hero-text{max-width:600px;}
+.hero h1{font-size:48px;color:var(--primary);}
+.hero p{color:var(--sub);margin:20px 0;}
+
+/* 🔥 IMAGE UPDATED HERE ONLY */
+.hero-img img{
+  width:220px;        /* smaller size */
+  height:280px;       /* rectangle shape */
+  object-fit:cover;
+  border-radius:12px; /* rectangle with soft corners */
+  border:3px solid var(--primary);
+}
+
+.btn{
+  padding:10px 20px;
+  border:1px solid var(--primary);
+  color:var(--primary);
+  text-decoration:none;
+  margin-right:10px;
+  border-radius:5px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.card{background:var(--card);padding:20px;border-radius:10px;}
+footer{text-align:center;padding:20px;color:var(--sub);}
+
+/* Mobile responsive */
+@media(max-width:768px){
+  .hero{flex-direction:column;text-align:center}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <h3>Rithika P</h3>
+  <div>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Rithika P</h1>
+    <p>Computer Science Engineering student specializing in Cyber Security. Passionate about building secure and scalable systems and solving real-world cybersecurity challenges.</p>
+    <a href="#projects" class="btn">View Projects</a>
+    <a href="#contact" class="btn">Contact</a>
+  </div>
+
+  <div class="hero-img">
+    <img src="rithika.jpeg" alt="Rithika Photo">
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am a Cyber Security student with strong foundations in programming and system security. I enjoy analyzing vulnerabilities and developing secure applications.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">💻 Python, C, HTML, CSS</div>
+    <div class="card">🛡️ Nmap, Wireshark</div>
+    <div class="card">📚 Cyber Security, Ethical Hacking</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Quiz Application</h3>
+      <p>Developed a web-based quiz system for knowledge evaluation.I created a web-based Quiz Application to help users test their knowledge in a simple and interactive way. I built this project using HTML, CSS, and JavaScript to design the pages and make the quiz work smoothly. The app shows multiple-choice questions, lets users pick their answers, and calculates the score automatically at the end. I also added different difficulty levels like easy, medium, and hard so users can choose based on their knowledge. This project helped me improve my web development skills, especially in JavaScript, and taught me how real websites handle user interaction and results.</p>
+    </div>
+    <div class="card">
+      <h3>VisionSafe</h3>
+      <p>AI-based security monitoring system concept.I worked on VisionSafe, an AI-based public security monitoring system designed to identify safe and unsafe activities in park environments. The project focuses on improving public safety by using AI to analyze visual data and detect suspicious or unusual behavior. The system is designed to support real-time monitoring so that authorities can be alerted quickly when unsafe situations occur. Through this project, I gained exposure to how artificial intelligence can be applied in cybersecurity and public safety solutions, and it strengthened my understanding of smart surveillance, problem-solving, and building technology that can help create safer public spaces.</p>
+    </div>
+  </div>
+</section>
+
+<section id="achievements">
+  <h2>Achievements</h2>
+  <div class="grid">
+    <div class="card">🏆 2nd Prize – Python Competitions</div>
+    <div class="card">📄 Paper Presentation – CIET & Velammal</div>
+    <div class="card">💡 Hackathon Participant</div>
+    <div class="card">🏀 Basketball Player</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: rithuo4sudha@gmail.com</p>
+  <p>LinkedIn: linkedin.com/in/rithika-p</p>
+  <p>GitHub: github.com/yourprofile</p>
+</section>
+
+<footer>
+  <p>© 2026 Rithika P</p>
+</footer>
+
+</body>
+</html>
